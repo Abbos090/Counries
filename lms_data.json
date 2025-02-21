@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "name": "Aliyev Anvar",
+            "email": "anvar@example.com",
+            "role": "Instructor"
+        },
+        {
+            "user_id": 2,
+            "name": "Akbarov Aziz",
+            "email": "aziz@example.com",
+            "role": "Student"
+        },
+        {
+            "user_id": 3,
+            "name": "Karimova Dildora",
+            "email": "dildora@example.com",
+            "role": "Student"
+        }
+    ],
+    "courses": [
+        {
+            "course_id": 101,
+            "name": "Python Dasturlash",
+            "instructor": {
+                "user_id": 1,
+                "name": "Aliyev Anvar",
+                "email": "anvar@example.com",
+                "role": "Instructor"
+            },
+            "students": [
+                {
+                    "user_id": 2,
+                    "name": "Akbarov Aziz",
+                    "email": "aziz@example.com",
+                    "role": "Student"
+                },
+                {
+                    "user_id": 3,
+                    "name": "Karimova Dildora",
+                    "email": "dildora@example.com",
+                    "role": "Student"
+                }
+            ]
+        }
+    ]
+}
